@@ -3,6 +3,5 @@ export default function swDev() {
     navigator.serviceWorker.register(swUrl).then((response) => {
         console.log('response', response);
     })
-
 }
 
