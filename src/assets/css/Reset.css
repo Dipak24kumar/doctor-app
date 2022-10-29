@@ -6,6 +6,7 @@
 	--purple:#6C64DE;
 	--dark_purple:#322D73;
 	--info:#515100;
+	--yellow:#f8992a;
   }
   @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
 
@@ -65,20 +66,30 @@ body{
     color: var(--white);
     min-width: 400px;
     border: 0;
+    display: block;
+    margin: auto;
 }
-.small-btn{
-	background-color: var(--purple);
-	padding: 6px 15px; 
-	border-radius: 25px; 
-	font-weight: 600; 
-	font-size: 18px;
-	line-height: 27px;
-	text-align: center;
-	color: var(--white);
-	text-transform: uppercase;
-	display: inline-block;
-	border: 0;
+.small-btn {
+    background-color: var(--purple);
+    padding: 6px 15px;
+    border-radius: 25px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: var(--white);
+    text-transform: uppercase;
+    display: inline-block;
+    border: 0;
+    min-width: 196px;
+    position: fixed;
+    right: 15px;
+    bottom: 112px;
 }
+.font600{
+	font-weight: 600;
+}
+
 .home-btn{
 		background-color: var(--purple);
 		padding: 10px 15px;
@@ -99,3 +110,4 @@ h1{
 	line-height: 45px;
 	text-align: center;
 }
+
