@@ -1,0 +1,99 @@
+/* ----reset css---- */
+:root {
+	--lightgreen: #83D2BF;
+	--white: #ffffff; 
+	--black:#000000;
+	--purple:#6C64DE;
+	--dark_purple:#322D73;
+	--info:#515100;
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var, 
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* ------custom css----- */
+body{
+	font-family: 'Poppins', sans-serif;
+	font-weight: 500; 
+	color: var(--white);
+	font-size: 16px;
+	line-height: 24px; 
+	background-color: var(--lightgreen);
+}
+.default-btn{
+	background-color: var(--purple);
+	padding: 10px 15px;
+	border-radius: 25px;
+	text-align: center;
+	color: var(--white);
+	display: inline-block;
+}
+.small-btn{
+	background-color: var(--purple);
+	padding: 6px 15px; 
+	border-radius: 25px; 
+	font-weight: 600; 
+	font-size: 18px;
+	line-height: 27px;
+	text-align: center;
+	color: var(--white);
+	text-transform: uppercase;
+	display: inline-block;
+}
+.home-btn{
+		background-color: var(--purple);
+		padding: 10px 15px;
+		border-radius: 25px;
+		text-align: center;
+		color: var(--white);
+		border: 0;
+		min-width: 352.84px;
+		height: 86px;
+		display: inline-block;
+		font-weight: 700;
+		font-size: 32px;
+		line-height: 39px;
+}
+h1{
+	font-weight: 600;
+	font-size: 30px;
+	line-height: 45px;
+	text-align: center;
+}
