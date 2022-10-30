@@ -62,7 +62,7 @@ body{
     background-color: var(--purple);
     padding: 24px 15px;
     border-radius: 25px;
-    text-align: center;
+    text-align: center; 
     color: var(--white);
     min-width: 400px;
     border: 0;
@@ -90,19 +90,24 @@ body{
 	font-weight: 600;
 }
 
-.home-btn{
-		background-color: var(--purple);
-		padding: 10px 15px;
-		border-radius: 25px;
-		text-align: center;
-		color: var(--white);
-		border: 0;
-		min-width: 352.84px;
-		height: 86px;
-		display: inline-block;
-		font-weight: 700;
-		font-size: 32px;
-		line-height: 39px;
+.home-btn {
+    background-color: var(--purple);
+    padding: 24px 15px;
+    border-radius: 25px;
+    text-align: center;
+    color: var(--white);
+    border: 0;
+    min-width: 352.84px;
+    display: inline-block;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    text-decoration: none;
+}
+.home-btn:hover, .small-btn:hover, .default-btn:hover{
+	text-decoration: none;
+	box-shadow: 0 0 36px rgba(0,0,0,0.2);
+	color: var(--white);
 }
 h1{
 	font-weight: 600;

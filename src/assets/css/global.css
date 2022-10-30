@@ -43,6 +43,12 @@
   left: -15px;
   opacity: 0.2;
 }
+.hand-img {
+  position: absolute;
+  top: 120px;
+  left: -15px; 
+  opacity: 0.2;
+}
 .breathing-img {
   position: absolute;
   right: 0;

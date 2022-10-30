@@ -1,6 +1,6 @@
 import React from 'react';
 import Tabs from '../components/Tabs';
-import heart from '../assets/images/heart.png';
+import twohand from '../assets/images/twohand.png';
 import breathing from '../assets/images/breathing.png';
 import heartwave from '../assets/images/heart-wave.png';
 
@@ -8,7 +8,7 @@ function Page_12() {
     return (
         <>
             <section className='page-cover text-center'>
-                <img src={heart} alt='Heart' title='Heart' className='img-fuild d-block text-left opacity hide-img' />
+                <img src={twohand} alt='Twohand' title='Twohand' className='img-fuild d-block text-left opacity hand-img' />
                 <button className="default-btn mb-3 mt-5" alt="">
                 How can I be sure that the person who collapsed has had a cardiac arrest?
                 </button> 

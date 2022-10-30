@@ -13,4 +13,4 @@ function Page_1() {
   )
 }
 
-export default Page_1
+export default Page_1;
