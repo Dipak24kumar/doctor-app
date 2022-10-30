@@ -70,6 +70,12 @@ body{
     margin: auto;
 }
 .small-btn {
+    min-width: 196px;
+    position: fixed;
+    right: 15px;
+    bottom: 112px;
+}
+.small-btn, .yes-btn {
     background-color: var(--purple);
     padding: 6px 15px;
     border-radius: 25px;
@@ -81,10 +87,10 @@ body{
     text-transform: uppercase;
     display: inline-block;
     border: 0;
-    min-width: 196px;
-    position: fixed;
-    right: 15px;
-    bottom: 112px;
+}
+.yes-btn{
+background-color: var(--purple);
+min-width: 162px;
 }
 .font600{
 	font-weight: 600;
