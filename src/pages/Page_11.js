@@ -164,7 +164,7 @@ function Page_11() {
               </div>
             </div>
           </div>
-          <div class="card ">
+          <div class="card mb-5">
             <div class="card-header" id="headingSeven">
               <button class="btn-block default-btn mb-3" type="button" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="true" aria-controls="collapseSeven">
               Are you confident that you can now do CPR?

@@ -1,5 +1,6 @@
 import React from 'react';
-import { FaHome, FaDribbble, FaInfo, FaDelicious, FaDyalog } from "react-icons/fa";
+import { FaHome, FaDatabase, FaInfo, FaDelicious, FaDyalog } from "react-icons/fa";
+import { ImExit } from "react-icons/im";
 import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 
@@ -15,7 +16,7 @@ function Tabs() {
         </li>
 
         <li className="nav-item" role="presentation">
-          <button className="nav-link" id="pills-profile-tab" data-toggle="pill" data-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false"><FaDribbble /></button>
+          <button className="nav-link" id="pills-profile-tab" data-toggle="pill" data-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false"><FaDatabase /></button>
         </li>
         <li className="nav-item" role="presentation">
           <button className="nav-link" id="pills-info-tab" data-toggle="pill" data-target="#pills-info" type="button" role="tab" aria-controls="pills-profile" aria-selected="false"><FaDelicious /></button>
@@ -24,7 +25,7 @@ function Tabs() {
           <button className="nav-link" id="pills-menu-tab" data-toggle="pill" data-target="#pills-menu" type="button" role="tab" aria-controls="pills-menu" aria-selected="false"><FaInfo /></button>
         </li>
         <li className="nav-item" role="presentation">
-          <button className="nav-link" id="pills-logout-tab" data-toggle="pill" data-target="#pills-logout" type="button" role="tab" aria-controls="pills-menu" aria-selected="false" onClick={() => navigate(-1)}><FaDyalog /></button>
+          <button className="nav-link" id="pills-logout-tab" data-toggle="pill" data-target="#pills-logout" type="button" role="tab" aria-controls="pills-menu" aria-selected="false" onClick={() => navigate(-1)}><ImExit /></button>
         </li>
       </ul>
       {/* <div className="tab-content" id="pills-tabContent">
