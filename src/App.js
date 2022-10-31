@@ -8,7 +8,7 @@ import './assets/css/global.css';
 // import Page_2 from './pages/Page_2.js';
 // import Page_11 from './pages/Page_11.js';
 // import Page_12 from './pages/Page_12.js';
-import Page_13 from './pages/Page_13.js';
+import Page_101 from './pages/Page_101.js';
 // import 'bootstrap/dist/css/bootstrap.css';
 
 function App() {
@@ -24,7 +24,7 @@ function App() {
         </Route>  */}
         {/* <Route path="/Page_12" element={<Page_12 />} /> 
       </Routes>  */}
-      <Page_13/> 
+      <Page_101/> 
     </BrowserRouter>  
   );
 }
