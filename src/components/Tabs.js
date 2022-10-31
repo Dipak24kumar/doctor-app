@@ -17,10 +17,10 @@ function Tabs() {
 
         <li className="nav-item" role="presentation">
           <button className="nav-link" id="pills-profile-tab" data-toggle="pill" data-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false"><FaDatabase /></button>
-        </li>
+        </li> 
         <li className="nav-item" role="presentation">
           <button className="nav-link" id="pills-info-tab" data-toggle="pill" data-target="#pills-info" type="button" role="tab" aria-controls="pills-profile" aria-selected="false"><FaDelicious /></button>
-        </li>
+        </li> 
         <li className="nav-item" role="presentation">
           <button className="nav-link" id="pills-menu-tab" data-toggle="pill" data-target="#pills-menu" type="button" role="tab" aria-controls="pills-menu" aria-selected="false"><FaInfo /></button>
         </li>

@@ -13,16 +13,17 @@ import Page_7 from './pages/Page_7.js';
 import Page_8 from './pages/Page_8.js';
 import Page_9 from './pages/Page_9.js';
 import Page_10 from './pages/Page_10.js';
+import Page_101 from './pages/Page_101.js';
+import Page_103 from './pages/Page_103.js';
 import Page_11 from './pages/Page_11.js';
 import Page_12 from './pages/Page_12.js';
-import Page_13 from './pages/Page_13.js';
-import Page_101 from './pages/Page_101.js';
+
 // import 'bootstrap/dist/css/bootstrap.css';
 
 function App() {
   return (
     <BrowserRouter>
-      <Routes>
+      {/* <Routes>
         <Route path="/" element={<Page_1 />} />
         <Route path="/Page_2" element={<Page_2 />} />
         <Route path="/Page_3"
@@ -45,13 +46,14 @@ function App() {
           element={<Page_11 />} />
         <Route path="/Page_12"
           element={<Page_12 />} />
-        <Route path="/Page_13"
-          element={<Page_13 />} />
+        <Route path="/Page_103"
+          element={<Page_103 />} />
         <Route path="/Page_101"
           element={<Page_101 />} />
-      </Routes>
+      </Routes> */}
+      <Page_101/> 
     </BrowserRouter>
   );
-}
+} 
 
 export default App;
