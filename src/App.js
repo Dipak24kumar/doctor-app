@@ -14,6 +14,9 @@ import Page_8 from './pages/Page_8.js';
 import Page_9 from './pages/Page_9.js';
 import Page_10 from './pages/Page_10.js';
 import Page_11 from './pages/Page_11.js';
+import Page_12 from './pages/Page_12.js';
+import Page_13 from './pages/Page_13.js';
+import Page_101 from './pages/Page_101.js';
 // import 'bootstrap/dist/css/bootstrap.css';
 
 function App() {
@@ -40,6 +43,12 @@ function App() {
           element={<Page_10 />} />
         <Route path="/Page_11"
           element={<Page_11 />} />
+        <Route path="/Page_12"
+          element={<Page_12 />} />
+        <Route path="/Page_13"
+          element={<Page_13 />} />
+        <Route path="/Page_101"
+          element={<Page_101 />} />
       </Routes>
     </BrowserRouter>
   );
