@@ -2,7 +2,7 @@ import React from 'react';
 import Tabs from '../components/Tabs';
 import heart from '../assets/images/heart.png';
 import heartimg from '../assets/images/heart-img.png';
-
+import { Link } from "react-router-dom";
 function Page_4() {
     return (
         <>
@@ -13,7 +13,7 @@ function Page_4() {
                 <span className='d-block mt-4 mb-5 font600'>Electrical problem <br />The person is usually unconscious </span>
                 <img src={heart} alt='Heart' title='Heart' className='img-fuild d-block text-left' />
                 <div className='text-right mt-4'>
-                    <button className="small-btn" >CONTINUE</button>
+                    <Link to='/Page_5'><button className="small-btn" >CONTINUE</button></Link>
                 </div>
             </section>
             <Tabs />

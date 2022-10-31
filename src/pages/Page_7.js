@@ -3,7 +3,7 @@ import Tabs from '../components/Tabs';
 import heart from '../assets/images/heart.png';
 import breathing from '../assets/images/breathing.png';
 import heartwave from '../assets/images/heart-wave.png';
-
+import { Link } from "react-router-dom";
 function Page_7() {
     return (
         <>
@@ -27,9 +27,11 @@ function Page_7() {
                 </div>
                 <img src={breathing} alt='Breathing' title='Breathing' className='breathing-img img-fuild d-block text-left' />
                 <img src={heartwave} alt='Heart Wave' title='Heart Wave' className='heartwave-img-left img-fuild d-block ' />
-                
+
                 <div className='text-right mt-4'>
-                    <button className="small-btn" >CONTINUE</button>
+                    <Link to="/Page_3">
+                        <button className="small-btn" >CONTINUE</button>
+                    </Link>
                 </div>
             </section>
             <Tabs />

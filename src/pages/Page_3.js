@@ -2,7 +2,7 @@ import React from 'react';
 import Tabs from '../components/Tabs';
 import heart from '../assets/images/heart.png';
 import wave from '../assets/images/wave.png';
-
+import { Link } from "react-router-dom";
 
 function Page_3() {
     return (
@@ -14,12 +14,14 @@ function Page_3() {
                 <img src={heart} alt='Heart' title='Heart' className='img-fuild d-inline-block' />
                 <img src={wave} alt='Heart wave' title='Heart wave' className='img-fuild d-inline-block' />
                 <span className='d-block mt-5 mb-4 font600'>Sudden Cardiac Arrest/ventricular fibrillation</span>
-                
+
                 <img src={heart} alt='Heart' title='Heart' className='img-fuild d-inline-block' />
                 <img src={wave} alt='Heart wave' title='Heart wave' className='img-fuild d-inline-block' />
-                
+
                 <div className='text-right mt-4'>
-                <button className="small-btn" >CONTINUE</button>
+                    <Link to='/Page_4'>
+                        <button className="small-btn" >CONTINUE</button>
+                    </Link>
                 </div>
 
             </section>

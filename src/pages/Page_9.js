@@ -1,7 +1,7 @@
 import React from 'react';
 import Tabs from '../components/Tabs';
 import hand from '../assets/images/hand.png';
-
+import { Link } from "react-router-dom";
 function Page_9() {
     return (
         <>
@@ -11,7 +11,7 @@ function Page_9() {
                 <img src={hand} alt='hand' title='Hand' className='img-fuild d-block mx-auto' />
                 <p className='font600 mt-5'>So if someone has a sudden cardiac arrest, who is going to help that person ?  </p>
                 <div className='text-right'>
-                    <button className="small-btn" >CONTINUE</button>
+                    <Link to="/Page_8"><button className="small-btn" >CONTINUE</button></Link>
                 </div>
             </section>
             <Tabs />

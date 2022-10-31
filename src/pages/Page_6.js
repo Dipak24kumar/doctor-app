@@ -1,8 +1,9 @@
 import React from 'react';
 import Tabs from '../components/Tabs';
-import breathingMan from '../assets/images/breathing-man.png'; 
+import breathingMan from '../assets/images/breathing-man.png';
 import clock from '../assets/images/clock.png';
 import heartwave from '../assets/images/heart-wave.png';
+import { Link } from "react-router-dom";
 
 function Page_5() {
     return (
@@ -30,7 +31,9 @@ function Page_5() {
                 <img src={heartwave} alt='Heart Wave' title='Heart Wave' className='heartwave-img-right img-fuild d-block ' />
 
                 <div className='text-right mt-4'>
-                    <button className="small-btn" >CONTINUE</button>
+                    <Link to="/Page_9">
+                        <button className="small-btn" >CONTINUE</button>
+                    </Link>
                 </div>
             </section>
             <Tabs />
