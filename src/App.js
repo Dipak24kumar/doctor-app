@@ -14,7 +14,7 @@ import Page_8 from './pages/Page_8.js';
 import Page_9 from './pages/Page_9.js';
 import Page_10 from './pages/Page_10.js';
 import Page_11 from './pages/Page_11.js';
-import 'bootstrap/dist/css/bootstrap.css';
+// import 'bootstrap/dist/css/bootstrap.css';
 
 function App() {
   return (
