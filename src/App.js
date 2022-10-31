@@ -26,8 +26,10 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Page_1 />} />
-        <Route path="/Page_2" element={<Page_2 />} />
+        <Route path="/"
+          element={<Page_1 />} />
+        <Route path="/Page_2"
+          element={<Page_2 />} />
         <Route path="/Page_3"
           element={<Page_3 />} />
         <Route path="/Page_4"
@@ -59,8 +61,6 @@ function App() {
         <Route path="/Page_104"
           element={<Page_104 />} />
       </Routes>
-
-      {/* <Page_101/>  */}
     </BrowserRouter>
   );
 }
