@@ -22,7 +22,9 @@ function Tabs() {
           <button className="nav-link" id="pills-info-tab" data-toggle="pill" data-target="#pills-info" type="button" role="tab" aria-controls="pills-profile" aria-selected="false"><FaDelicious /></button>
         </li>
         <li className="nav-item" role="presentation">
-          <button className="nav-link" id="pills-menu-tab" data-toggle="pill" data-target="#pills-menu" type="button" role="tab" aria-controls="pills-menu" aria-selected="false"><FaInfo /></button>
+          <Link to="/Page_8">
+            <button className="nav-link" id="pills-menu-tab" data-toggle="pill" data-target="#pills-menu" type="button" role="tab" aria-controls="pills-menu" aria-selected="false"><FaInfo /></button>
+          </Link>
         </li>
         <li className="nav-item" role="presentation">
           <button className="nav-link" id="pills-logout-tab" data-toggle="pill" data-target="#pills-logout" type="button" role="tab" aria-controls="pills-menu" aria-selected="false" onClick={() => navigate(-1)}><ImExit /></button>
