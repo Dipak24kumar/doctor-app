@@ -14,6 +14,7 @@ import Page_8 from './pages/Page_8.js';
 import Page_9 from './pages/Page_9.js';
 import Page_10 from './pages/Page_10.js';
 import Page_101 from './pages/Page_101.js';
+import Page_102 from './pages/Page_102.js';
 import Page_103 from './pages/Page_103.js';
 import Page_11 from './pages/Page_11.js';
 import Page_12 from './pages/Page_12.js';
@@ -49,6 +50,10 @@ function App() {
           element={<Page_11 />} />
         <Route path="/Page_12"
           element={<Page_12 />} />
+        <Route path="/Page_101"
+          element={<Page_101 />} />
+        <Route path="/Page_102"
+          element={<Page_102 />} />
         <Route path="/Page_103"
           element={<Page_103 />} />
         <Route path="/Page_104"
