@@ -10,8 +10,8 @@ function Page_12() {
                 <p className='font600 mb-4'>Let us make INDIA CPR-aware </p>
                 <img src={india} alt='India' title='India' className='img-fuild d-block mx-auto' />
                 <p className='font600 mt-5 mb-4'>So if you come across a person who has had a cardiac arrest USE THIS SKILL</p>
-                <p>Invite your friends and family to learn this lifesaving skill</p> 
-            </section> 
+                <p className='font600'>Invite your friends and family to learn this lifesaving skill</p> 
+            </section>  
             <Tabs />
         </>
     )
