@@ -31,6 +31,9 @@ this.addEventListener('install', (event) => {
                 "/static/media/10nose.2c29714906aa04a6b26b.png",
                 "/static/media/tenCheckup.72325f809fbb1f99f812.png",
                 "/static/media/10front.94b8985a0d3330b879a3.png",
+                "/static/media/doctor-helpbreathing.73e41aef3e79c126c778.png",
+                "/static/media/doctor-helpbreathing.73e41aef3e79c126c778.png",
+                "/static/media/low-heart.e54e37ff3f002fd376eb.png",
                 "",
                 "/assets/css/Reset.css",
                 "/assets/css/global.css",
@@ -43,7 +46,12 @@ this.addEventListener('install', (event) => {
                 "/Page_8",
                 "/Page_9",
                 "/Page_10",
-                "/Page_11"
+                "/Page_11",
+                "Page_12",
+                "/Page_101",
+                "/Page_102",
+                "/Page_103",
+                "/Page_104"
             ]);
         })
     )

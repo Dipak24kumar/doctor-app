@@ -9,27 +9,31 @@ function Tabs() {
   return (
     <div className='tab-block'>
       <div className='main-block'>
-      <ul className="nav nav-pills" id="pills-tab" role="tablist">
-        <li className="nav-item" role="presentation">
-          <Link to="/Page_2">
-            <button className="nav-link active" id="pills-home-tab" data-toggle="pill" data-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true"><FaHome /></button>
-          </Link>
-        </li>
-        <li className="nav-item" role="presentation">
-          <button className="nav-link" id="pills-profile-tab" data-toggle="pill" data-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false"><FaDatabase /></button>
-        </li> 
-        <li className="nav-item" role="presentation">
-          <button className="nav-link" id="pills-info-tab" data-toggle="pill" data-target="#pills-info" type="button" role="tab" aria-controls="pills-profile" aria-selected="false"><FaDelicious /></button>
-        </li> 
-        <li className="nav-item" role="presentation">
-          <Link to="/Page_8">
-            <button className="nav-link" id="pills-menu-tab" data-toggle="pill" data-target="#pills-menu" type="button" role="tab" aria-controls="pills-menu" aria-selected="false"><FaInfo /></button>
-          </Link>
-        </li>
-        <li className="nav-item" role="presentation">
-          <button className="nav-link" id="pills-logout-tab" data-toggle="pill" data-target="#pills-logout" type="button" role="tab" aria-controls="pills-menu" aria-selected="false" onClick={() => navigate(-1)}><ImExit /></button>
-        </li>
-      </ul>
+        <ul className="nav nav-pills" id="pills-tab" role="tablist">
+          <li className="nav-item" role="presentation">
+            <Link to="/Page_2">
+              <button className="nav-link active" id="pills-home-tab" data-toggle="pill" data-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true"><FaHome /></button>
+            </Link>
+          </li>
+          <li className="nav-item" role="presentation">
+            <Link to="/Page_10">
+              <button className="nav-link" id="pills-profile-tab" data-toggle="pill" data-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false"><FaDatabase /></button>
+            </Link>
+          </li>
+          <li className="nav-item" role="presentation">
+            <Link to="/Page_11">
+              <button className="nav-link" id="pills-info-tab" data-toggle="pill" data-target="#pills-info" type="button" role="tab" aria-controls="pills-profile" aria-selected="false"><FaDelicious /></button>
+            </Link>
+          </li>
+          <li className="nav-item" role="presentation">
+            <Link to="/Page_8">
+              <button className="nav-link" id="pills-menu-tab" data-toggle="pill" data-target="#pills-menu" type="button" role="tab" aria-controls="pills-menu" aria-selected="false"><FaInfo /></button>
+            </Link>
+          </li>
+          <li className="nav-item" role="presentation">
+            <button className="nav-link" id="pills-logout-tab" data-toggle="pill" data-target="#pills-logout" type="button" role="tab" aria-controls="pills-menu" aria-selected="false" onClick={() => navigate(-1)}><ImExit /></button>
+          </li>
+        </ul>
       </div>
       {/* <div className="tab-content" id="pills-tabContent">
         <div className="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">A</div>

@@ -4,16 +4,16 @@ import tenAedLock from '../assets/images/aed-lock.png';
 import tenAedHand from '../assets/images/aed-hand.png';
 import tenAedMan from '../assets/images/aed-man.png';
 import tenAedLow from '../assets/images/aed-low.png';
+import { Link } from "react-router-dom";
 
-
-function Page_103() { 
+function Page_103() {
     return (
         <>
             <section className='page-cover text-center relative'>
                 <h1 className='mb-4'>Use an Artificial External Defibrillator (AED or “shock machine”)</h1>
                 <img src={tenAedLock} alt='Artificial External Defibrillator' title='Artificial External Defibrillator' className='img-fuild m-auto d-block' />
                 <img src={tenAedLow} alt='Artificial External Defibrillator' title='Artificial External Defibrillator' className='img-fuild aed-img d-block' />
-                
+
                 <div className='content-border_box'>
                     <p>This is a machine that analyzes the victim’s hythm and provide a shock as quickly as possible when needed </p>
                     <div className='partition'></div>
@@ -81,8 +81,10 @@ function Page_103() {
                 <div className='content-border_box'>
                     <p>NEVER give anything by mouth: food, water, medicines </p>
                     <div className='partition'></div>
-                </div> 
-                <button className="small-btn" >CONTINUE</button>
+                </div>
+                <Link to="/Page_104">
+                    <button className="small-btn" >CONTINUE</button>
+                </Link>
             </section>
             <Tabs />
         </>

@@ -44,12 +44,12 @@ const btnData = [
     title: 'What is the Good Samaritan Law ?',
     url: '/Page_8'
   },
-  {
-    id: '8',
-    name: 'What are the 4 basic steps of CPR ?',
-    title: 'What are the 4 basic steps of CPR ?',
-    url: '/Page_10'
-  },
+  // {
+  //   id: '8',
+  //   name: 'What are the 4 basic steps of CPR ?',
+  //   title: 'What are the 4 basic steps of CPR ?',
+  //   url: '/Page_10'
+  // },
 ]
 
 function Page_2() {
