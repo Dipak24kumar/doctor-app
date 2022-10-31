@@ -6,7 +6,8 @@ import './assets/css/Reset.css';
 import './assets/css/global.css';
 // import Page_1 from './pages/Page_1.js';
 // import Page_2 from './pages/Page_2.js';
-import Page_11 from './pages/Page_11.js';
+// import Page_11 from './pages/Page_11.js';
+import Page_12 from './pages/Page_12.js';
 // import 'bootstrap/dist/css/bootstrap.css';
 
 function App() {
@@ -22,8 +23,8 @@ function App() {
         </Route>  */}
         {/* <Route path="/Page_12" element={<Page_12 />} /> 
       </Routes>  */}
-      <Page_11/>
-    </BrowserRouter> 
+      <Page_12/> 
+    </BrowserRouter>  
   );
 }
 
