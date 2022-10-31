@@ -61,7 +61,11 @@
   left: -15px;
   opacity: 0.2;
 }
-
+.aed-img {
+  position: absolute;
+  top: 905px;
+  right: 0;
+} 
 .breathing-img {
   position: absolute;
   right: 0;

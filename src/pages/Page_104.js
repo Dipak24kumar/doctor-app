@@ -2,7 +2,7 @@ import React from 'react';
 import Tabs from '../components/Tabs';
 import remoteControl from '../assets/images/moot-ki-sawari.png';
 
-function Page_12() {
+function Page_104() {
     return (
         <>
             <section className='page-cover text-center'>
@@ -15,7 +15,7 @@ function Page_12() {
     )
 }
 
-export default Page_12;
+export default Page_104;
 
 
 
