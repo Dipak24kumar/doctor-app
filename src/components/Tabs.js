@@ -10,9 +10,9 @@ function Tabs() {
       itm.classList.remove("active");
     })
     e.target.parentNode.classList.add("active");
-    setTimeout(() => {
-      navigate(url);
-    }, 1000);
+
+    navigate(url);
+
   }
 
   return (
