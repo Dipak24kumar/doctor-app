@@ -61,7 +61,6 @@ function Page_2() {
           <Link key={data.id} to={data.url}><button className="default-btn mb-3" alt={data.title} >{data.name}</button></Link>
         ))}
       </section>
-      <Tabs />
     </>
   )
 }

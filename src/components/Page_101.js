@@ -1,5 +1,5 @@
 import React from 'react';
-import Tabs from '../components/Tabs';
+import Tabs from './Tabs';
 import tenman from '../assets/images/10man.png';
 import tenHelpMen from '../assets/images/10help-men.png';
 import tenpils from '../assets/images/10pils.png';

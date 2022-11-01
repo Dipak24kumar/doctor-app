@@ -1,8 +1,7 @@
 import React from 'react';
 import { FaHome, FaDatabase, FaInfo, FaDelicious } from "react-icons/fa";
 import { ImExit } from "react-icons/im";
-import { Link } from "react-router-dom";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 function Tabs() {
   let navigate = useNavigate();
@@ -21,16 +20,24 @@ function Tabs() {
       <div className='main-block'>
         <ul className="nav nav-pills" id="pills-tab" role="tablist">
           <li className="nav-item" role="presentation">
-            <button className="nav-link active_btn" id="pills-home-tab" type="button" onClick={e => handleHomeTab(e, "/tabs/tabsroutes")}><FaHome /></button>
+            {/* <Link to="/tabs/tabsrouters"> */}
+            <button className="nav-link active" id="pills-home-tab" data-toggle="pill" data-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true" onClick={() => navigate("/Page_2")}><FaHome /></button>
+            {/* </Link> */}
           </li>
           <li className="nav-item" role="presentation">
-            <button className="nav-link active_btn" id="pills-profile-tab" type="button" onClick={e => handleHomeTab(e, "/tabs/tabsroutes/page_10")}><FaDatabase /></button>
+            {/* <Link to="/tabs/tabsrouters/Page_10"> */}
+            <button className="nav-link" id="pills-profile-tab" data-toggle="pill" data-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false" onClick={() => navigate("/Page_10")}><FaDatabase /></button>
+            {/* </Link> */}
           </li>
           <li className="nav-item" role="presentation">
-            <button className="nav-link active_btn" id="pills-info-tab" type="button" onClick={e => handleHomeTab(e, "/Page_11")}><FaDelicious /></button>
+            {/* <Link to="/Page_11"> */}
+            <button className="nav-link" id="pills-info-tab" data-toggle="pill" data-target="#pills-info" type="button" role="tab" aria-controls="pills-profile" aria-selected="false" onClick={() => navigate("/Page_101")}><FaDelicious /></button>
+            {/* </Link> */}
           </li>
           <li className="nav-item" role="presentation">
-            <button className="nav-link active_btn" id="pills-menu-tab" type="button" onClick={e => handleHomeTab(e, "/Page_8")}><FaInfo /></button>
+            {/* <Link to="/Page_8"> */}
+            <button className="nav-link" id="pills-menu-tab" data-toggle="pill" data-target="#pills-menu" type="button" role="tab" aria-controls="pills-menu" aria-selected="false" onClick={() => navigate("/Page_102")}><FaInfo /></button>
+            {/* </Link> */}
           </li>
           <li className="nav-item" role="presentation">
             <button className="nav-link" id="pills-logout-tab" type="button" onClick={() => navigate(-1)}><ImExit /></button>
