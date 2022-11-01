@@ -7,13 +7,13 @@ const btnData = [
     id: '1',
     name: 'Recognise cardiac arrest',
     title: 'Recognise cardiac arrest',
-    url: ''
+    url: '/Page_101'
   },
   {
     id: '2',
     name: 'Start CPR and ask someone to callan ambulance',
     title: 'Start CPR and ask someone to callan ambulance',
-    url: ''
+    url: '/Page_102'
   },
   {
     id: '3',

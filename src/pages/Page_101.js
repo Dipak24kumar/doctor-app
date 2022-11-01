@@ -6,7 +6,7 @@ import tenpils from '../assets/images/10pils.png';
 import noseMan from '../assets/images/10nose.png';
 import tenCheckup from '../assets/images/tenCheckup.png';
 import tenFront from '../assets/images/10front.png';
-
+import { Link } from "react-router-dom";
 function Page_101() {
     return (
         <>
@@ -36,7 +36,9 @@ function Page_101() {
                     <p>Do not give ANYTHING by mouth: Water, food, medicines</p>
                     <div className='partition'></div>
                 </div>
-                <button className="small-btn" >CONTINUE</button>
+                <Link to="/Page_102">
+                    <button className="small-btn" >CONTINUE</button>
+                </Link>
             </section>
             <Tabs />
         </>

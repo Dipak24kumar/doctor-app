@@ -8,7 +8,7 @@ import userHead3 from '../assets/images/user-head3.png';
 import userHead4 from '../assets/images/user-head4.png';
 import breathingmanThree from '../assets/images/breathingman-three.png';
 import breathingmanTwo from '../assets/images/breathingman-two.png';
-
+import { Link } from "react-router-dom";
 
 function Page_102() {
     return (
@@ -55,10 +55,13 @@ function Page_102() {
                 <p className='font600 my-5'>Hand position during CPR Fingers interlocked</p>
                 <img src={breathingmanTwo} alt='steps-breathingman' title='steps-breathingman' className='img-fuild m-auto d-block' />
                 <p className='font600 my-5 mx-4'>Start CPR 100-120/min <br /> Go down at least 5 cm or 2 inches <br /> Be sure to let the chest rise between compressions</p>
-                <button className="small-btn" >CONTINUE</button>
+                <Link to="/Page_103">
+                    <button className="small-btn" >CONTINUE</button>
+                </Link>
+
             </section>
-            <Tabs /> 
-        </> 
+            <Tabs />
+        </>
     )
 }
 

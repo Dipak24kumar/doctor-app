@@ -19,6 +19,8 @@ import Page_103 from './pages/Page_103.js';
 import Page_11 from './pages/Page_11.js';
 import Page_12 from './pages/Page_12.js';
 import Page_104 from './pages/Page_104.js';
+import Tabs from './components/Tabs';
+import TabsRoutes from './components/TabsRoutes';
 
 // import 'bootstrap/dist/css/bootstrap.css';
 
@@ -28,8 +30,10 @@ function App() {
       <Routes>
         <Route path="/"
           element={<Page_1 />} />
-        <Route path="/Page_2"
-          element={<Page_2 />} />
+        <Route
+          path="/tabs/tabsroutes/*"
+          element={<TabsRoutes />}
+        />
         <Route path="/Page_3"
           element={<Page_3 />} />
         <Route path="/Page_4"
@@ -44,18 +48,18 @@ function App() {
           element={<Page_8 />} />
         <Route path="/Page_9"
           element={<Page_9 />} />
-        <Route path="/Page_10"
+        {/* <Route path="/Page_10"
           element={<Page_10 />} />
         <Route path="/Page_11"
-          element={<Page_11 />} />
+          element={<Page_11 />} /> */}
         <Route path="/Page_11"
           element={<Page_11 />} />
         <Route path="/Page_12"
           element={<Page_12 />} />
-        <Route path="/Page_101"
+        {/* <Route path="/Page_101"
           element={<Page_101 />} />
         <Route path="/Page_102"
-          element={<Page_102 />} />
+          element={<Page_102 />} /> */}
         <Route path="/Page_103"
           element={<Page_103 />} />
         <Route path="/Page_104"
