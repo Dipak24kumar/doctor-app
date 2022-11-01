@@ -11,7 +11,7 @@ import Page_7 from "../pages/Page_7";
 import Page_8 from "../pages/Page_8";
 import Page_9 from "../pages/Page_9";
 import Page_10 from "../components/Page_10";
-import Page_11 from "../pages/Page_11";
+import Page_11 from "../components/Page_11";
 import Page_12 from "../pages/Page_12";
 import Page_101 from "../components/Page_101";
 import Page_102 from "../components/Page_102";
@@ -42,11 +42,11 @@ export default function Routers() {
                     )}
                 />
                 <Route
-                    path="Page_101"
+                    path="Page_11"
                     element={(
                         <>
                             <Tabs />
-                            <Page_101 />
+                            <Page_11 />
                         </>
                     )}
                 />
@@ -68,6 +68,7 @@ export default function Routers() {
                 <Route path="/Page_9" element={<Page_9 />} />
                 <Route path="/Page_11" element={<Page_11 />} />
                 <Route path="/Page_12" element={<Page_12 />} />
+                <Route path="/Page_101" element={<Page_101 />} />
                 <Route path="/Page_103" element={<Page_103 />} />
                 <Route path="/Page_104" element={<Page_104 />} />
             </Routes>

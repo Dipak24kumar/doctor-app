@@ -31,7 +31,7 @@ function Tabs() {
           </li>
           <li className="nav-item" role="presentation">
             {/* <Link to="/Page_11"> */}
-            <button className="nav-link" id="pills-info-tab" data-toggle="pill" data-target="#pills-info" type="button" role="tab" aria-controls="pills-profile" aria-selected="false" onClick={() => navigate("/Page_101")}><FaDelicious /></button>
+            <button className="nav-link" id="pills-info-tab" data-toggle="pill" data-target="#pills-info" type="button" role="tab" aria-controls="pills-profile" aria-selected="false" onClick={() => navigate("/Page_11")}><FaDelicious /></button>
             {/* </Link> */}
           </li>
           <li className="nav-item" role="presentation">

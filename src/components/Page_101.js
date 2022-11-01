@@ -40,6 +40,7 @@ function Page_101() {
                     <button className="small-btn" >CONTINUE</button>
                 </Link>
             </section>
+            <Tabs />
         </>
     )
 }

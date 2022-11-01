@@ -14,7 +14,6 @@ function Page_104() {
                 </Link>
             </section>
             <Tabs />
-
         </>
     )
 }

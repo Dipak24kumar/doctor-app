@@ -1,5 +1,5 @@
 import React from 'react';
-import Tabs from '../components/Tabs';
+// import Tabs from '../components/Tabs';
 import { Link } from "react-router-dom";
 const btnData = [
   {
@@ -56,7 +56,7 @@ function Page_2() {
   return (
     <>
       <section className='page-cover text-center'>
-        <h1 className='mb-4'>What will we learn dfsf</h1>
+        <h1 className='mb-4'>What will we learn</h1>
         {btnData.map((data) => (
           <Link key={data.id} to={data.url}><button className="default-btn mb-3" alt={data.title} >{data.name}</button></Link>
         ))}

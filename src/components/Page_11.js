@@ -1,5 +1,5 @@
 import React from 'react';
-import Tabs from '../components/Tabs';
+import Tabs from './Tabs';
 import twohand from '../assets/images/twohand.png';
 import doctorHelpBreathing from '../assets/images/doctor-helpbreathing.png';
 import ambulence from '../assets/images/ambulence.png';
@@ -178,17 +178,7 @@ function Page_11() {
             </div>
           </div>
         </div>
-
-
-
-
-
-
-
-
-
       </section>
-      <Tabs />
     </>
   )
 }
