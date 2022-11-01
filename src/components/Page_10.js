@@ -40,7 +40,7 @@ function Page_10() {
           </Link>
         ))}
       </section>
-      <Tabs />
+      {/* <Tabs /> */}
     </>
   )
 }

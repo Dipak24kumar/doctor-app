@@ -34,7 +34,8 @@ this.addEventListener('install', (event) => {
                 "/static/media/doctor-helpbreathing.73e41aef3e79c126c778.png",
                 "/static/media/doctor-helpbreathing.73e41aef3e79c126c778.png",
                 "/static/media/low-heart.e54e37ff3f002fd376eb.png",
-                "",
+                "/static/media/doctor-helpbreathing.73e41aef3e79c126c778.png",
+                "/static/media/doctor-helpbreathing.73e41aef3e79c126c778.png",
                 "/assets/css/Reset.css",
                 "/assets/css/global.css",
                 "/Page_2",
@@ -58,15 +59,15 @@ this.addEventListener('install', (event) => {
 });
 
 this.addEventListener("fetch", (event) => {
-    if (!navigator.onLine) {
-        event.respondWith(
-            caches.match(event.request).then((result) => {
-                if (result) {
-                    return result;
-                }
-            })
-        )
-    }
+    // if (!navigator.onLine) {
+    event.respondWith(
+        caches.match(event.request).then((result) => {
+            if (result) {
+                return result;
+            }
+        })
+    )
+    // }
 
 });
 

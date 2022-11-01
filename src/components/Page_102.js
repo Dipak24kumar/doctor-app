@@ -1,5 +1,5 @@
 import React from 'react';
-import Tabs from '../components/Tabs';
+import Tabs from './Tabs';
 import stepsBreathingman1 from '../assets/images/stepsto-breathing.png';
 import stepstoBreathingman2 from '../assets/images/steps-breathingman.png';
 import userHead1 from '../assets/images/user-head1.png';
@@ -57,8 +57,8 @@ function Page_102() {
                 <p className='font600 my-5 mx-4'>Start CPR 100-120/min <br /> Go down at least 5 cm or 2 inches <br /> Be sure to let the chest rise between compressions</p>
                 <button className="small-btn" >CONTINUE</button>
             </section>
-            <Tabs /> 
-        </> 
+            <Tabs />
+        </>
     )
 }
 
