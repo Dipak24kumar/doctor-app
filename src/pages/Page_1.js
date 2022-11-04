@@ -8,7 +8,7 @@ function Page_1() {
       <p>Train for the moments that could matter !!</p>
       <img src={homeLogo} alt='logo' className='img-fuild d-block' />
       <Link to="/Page_2" className='home-btn'>START</Link>
-      <p className='content-para'>Aditya Kapoor <br /> Prof and Head, Dept of Cardiology SGPGIMS, Lucknow</p>
+      <h2 className='content-para'>Aditya Kapoor <br /> Prof and Head, Dept of Cardiology SGPGIMS, Lucknow</h2>
     </section>
   )
 }

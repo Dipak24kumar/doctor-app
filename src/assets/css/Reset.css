@@ -148,16 +148,19 @@ body {
 
 .default-btn {
     background-color: var(--purple);
-    padding: 24px 15px;
-    border-radius: 25px;
-    text-align: center;
+    padding: 20px 15px;
+    border-radius: 9px;
+    text-align: left;
     color: var(--white);
     min-width: 400px;
     border: 0;
-    display: block;
+    display: flex;
     margin: auto;
+    justify-content: space-between;
 }
-
+.default-btn.active {
+    background-color: #322D73;
+}
 .small-btn {
     min-width: 196px;
     position: fixed;
@@ -165,11 +168,10 @@ body {
     bottom: 112px;
 }
 
-.small-btn,
-.yes-btn {
+.small-btn, .yes-btn {
     background-color: var(--purple);
-    padding: 6px 15px;
-    border-radius: 25px;
+    padding: 16px 15px;
+    border-radius: 40px;
     font-weight: 600;
     font-size: 18px;
     line-height: 27px;
@@ -182,7 +184,6 @@ body {
 
 .yes-btn {
     background-color: var(--purple);
-    min-width: 162px;
 }
 
 .font600 {
@@ -191,17 +192,19 @@ body {
 
 .home-btn {
     background-color: var(--purple);
-    padding: 24px 15px;
-    border-radius: 25px;
+    padding: 20px 15px;
+    border-radius: 40px;
     text-align: center;
     color: var(--white);
     border: 0;
-    min-width: 352.84px;
+    min-width: 250px;
     display: inline-block;
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 39px;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 28px;
     text-decoration: none;
+    cursor: pointer;
+    letter-spacing: 2px;
 }
 
 .home-btn:hover,

@@ -9,6 +9,7 @@ function Page_5() {
     return (
         <>
             <section className='page-cover text-center'>
+                <div className='page6-wrap'>
                 <img src={clock} alt='Clock' title='Clock' className='img-fuild d-block  clock-img' />
                 <h1 className='mb-4'>Why is Time of essence </h1>
                 <div className='content-border_box'>
@@ -34,6 +35,7 @@ function Page_5() {
                     <Link to="/Page_9">
                         <button className="small-btn" >CONTINUE</button>
                     </Link>
+                </div>
                 </div>
             </section>
             <Tabs />

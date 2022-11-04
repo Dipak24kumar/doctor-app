@@ -33,10 +33,10 @@ function Page_10() {
   return (
     <>
       <section className='page-cover text-center'>
-        <h1 className=' my-5'> Basic steps of CPR</h1>
+        <h1 className='mt-4 mb-5'> Basic steps of CPR</h1>
         {btnData.map((data) => (
           <Link to={data.url} key={data.id}>
-            <button className="default-btn mb-4" alt={data.title}>{data.name}</button>
+            <button className="default-btn page_10-cta mb-4" alt={data.title}>{data.name}</button>
           </Link>
         ))}
       </section>
